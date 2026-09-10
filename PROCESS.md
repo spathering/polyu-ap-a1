@@ -50,3 +50,4 @@ One AI contribution I rejected was the suggestion to describe the high-jump tech
 - Kept the examples of sandboxes, RTS games, hard simulations, factory systems, and puzzle games because they show where deeper technical freedom can produce differentiated gameplay.
 - The earlier decision to omit Jai applied only to the first draft. I later reversed it after verifying a narrower and more accurate claim.
 - Removed the Yarn Spinner example from `README.md` after the historical section pushed the essay slightly over 1,000 words. The Unity PCG example already supports the same point with more relevant technical detail.
+    
