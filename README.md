@@ -8,8 +8,6 @@ My answer depends on what kind of work is being made. For a simple design applic
 
 Over the past two years, AI coding tools have changed from merely usable to genuinely useful in my projects. In a recent Unity project, I delegated much of a procedural content generation tool to AI. I designed the data structures used to describe or bake the content and specified the intended result; AI then implemented the tool, including a large amount of mesh-data processing. I did not need to care about every internal detail. I inspected the surface appearance, the resulting mesh data, and whether performance was acceptable in actual use. Those were the properties that mattered to the work.
 
-I used a similar division of labour for a workflow-management tool built around Yarn Spinner. After I established its data structures and responsibilities, AI handled implementation work such as the web-editor front end. These tasks were suitable for delegation because their scope, interfaces, and success conditions were relatively clear.
-
 This does not mean that programming knowledge became irrelevant. Before implementation, my usual process is to let AI read the relevant code, analyse the requirement with me, discuss alternatives, agree on data structures and protocols, refine a plan, divide it into steps, and only then execute it. Afterwards, I test and optimise the result. The valuable skill is no longer typing every line myself. It is knowing how to turn an intention into boundaries and checks precise enough for another agent to implement.
 
 ## When Natural Language Is Not Precise Enough
@@ -24,10 +22,20 @@ One recent game produced an unexpectedly powerful high-jump technique, strong en
 
 In *The Art of Code*, Dylan Beattie presents programming as an expressive medium through examples including Conway's Game of Life, generative art, esoteric languages, and live-coded music. The Game of Life is especially relevant to games: simple rules can interact to produce behaviour that was not individually authored. Code can therefore be more than the hidden labour required to deliver a design; it can be the material from which unexpected design possibilities emerge (Beattie, 2020).
 
-This does not justify teaching programming exactly as before. Memorising the syntax and tricks of one language may offer less value when AI can supply them immediately. Software engineering, system design, decomposition, validation, and the philosophy behind computation now offer a better return. AI may even help learners reach those ideas sooner by letting them build and test more examples.
+This change has happened before. Literature, painting, and film have all been reshaped by new tools. Within computing, high-level languages hid machine instructions, while the history of the [game engine](https://en.wikipedia.org/wiki/Game_engine) is largely a history of reusable abstractions. Unity says its editor helped democratise game development, and Unreal's Blueprints let designers create behaviours without writing conventional code (Unity Technologies, 2023; Epic Games, n.d.). These tools let more people concentrate on content instead of rebuilding physics, graphics, and system I/O.
 
-I am therefore not here to compete with AI over who can produce code faster. I am here to understand the computational medium well enough to specify systems precisely, choose what to delegate, inspect what matters, and recognise when an accident becomes a possibility. For the kind of games I want to make, giving up that understanding would also mean giving up creative control.
+Yet abstraction did not make lower-level knowledge worthless. It gives experienced developers more freedom when standard tools do not fit. That matters in sandboxes, RTS games, hard simulations, factory systems, and puzzle games, where unusual technical ideas can become the main experience. Jonathan Blow's Jai is a striking example. Built from his experience as a game developer and programmer, it supports arbitrary compile-time execution. An early demonstration even ran a small game during compilation and baked its results into the final program (Blow, 2014). The game was not generating itself during normal play; the surprising idea was that compilation itself became programmable.
+
+This does not mean programming should be taught exactly as before. Memorising one language's syntax matters less when AI can supply it immediately. Learning a tool also means learning its history, the situations it was made for, and the ideas previous users built into it. I am not here to compete with AI over typing code. I am here to understand the medium well enough to specify systems, choose what to delegate, inspect what matters, and turn technical possibilities—or accidents—into differentiated play. For the games I want to make, giving up that understanding would mean giving up creative freedom.
 
 ## References
 
 Beattie, D. (2020). *The art of code* [Video]. YouTube. https://www.youtube.com/watch?v=6avJHaC3C2U
+
+Blow, J. (2014). *Demo: Base language, compile-time execution* [Video]. YouTube. https://www.youtube.com/watch?v=UTqZNujQOlA
+
+Epic Games. (n.d.). *Create next gen games for next gen consoles, PC & all platforms*. Unreal Engine. https://www.unrealengine.com/nextgen
+
+Unity Technologies. (2023, March 21). *Why we're excited about AI at Unity*. https://unity.com/blog/news/why-we-are-excited-about-ai
+
+Wikipedia contributors. (2026). Game engine. In *Wikipedia*. Retrieved September 10, 2026, from https://en.wikipedia.org/wiki/Game_engine
