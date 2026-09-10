@@ -37,5 +37,6 @@ Blow, J. (2014). *Demo: Base language, compile-time execution* [Video]. YouTube.
 Epic Games. (n.d.). *Create next gen games for next gen consoles, PC & all platforms*. Unreal Engine. https://www.unrealengine.com/nextgen
 
 Unity Technologies. (2023, March 21). *Why we're excited about AI at Unity*. https://unity.com/blog/news/why-we-are-excited-about-ai
-
+    
 Wikipedia contributors. (2026). Game engine. In *Wikipedia*. Retrieved September 10, 2026, from https://en.wikipedia.org/wiki/Game_engine
+   
